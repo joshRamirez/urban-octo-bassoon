@@ -36,7 +36,7 @@ public class ConversionUtil {
      * @param input String equation which is in infix notation.
      * @return String equation in reverse polish notation.
      */
-    public List<String> convertStringToRpn(String input) {
+    public LinkedList<String> convertStringToRpn(String input) {
         LinkedList<String> outputTokens = new LinkedList<String>();
         LinkedList<String> operatorStack = new LinkedList<String>();
 

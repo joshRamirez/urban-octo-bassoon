@@ -1,10 +1,10 @@
 package models;
 
-import java.util.List;
+import java.util.LinkedList;
 
 public class Calculation {
     private String input;
-    private List<String> rpn;
+    private LinkedList<String> rpn;
     private String output;
 
     public String getInput() {
@@ -23,11 +23,11 @@ public class Calculation {
         this.output = output;
     }
 
-    public List<String> getRpn() {
+    public LinkedList<String> getRpn() {
         return rpn;
     }
 
-    public void setRpn(List<String> rpn) {
+    public void setRpn(LinkedList<String> rpn) {
         this.rpn = rpn;
     }
 }
