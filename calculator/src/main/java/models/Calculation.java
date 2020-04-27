@@ -1,8 +1,10 @@
 package models;
 
+import java.util.List;
+
 public class Calculation {
     private String input;
-    private String rpn;
+    private List<String> rpn;
     private String output;
 
     public String getInput() {
@@ -21,11 +23,11 @@ public class Calculation {
         this.output = output;
     }
 
-    public String getRpn() {
+    public List<String> getRpn() {
         return rpn;
     }
 
-    public void setRpn(String rpn) {
+    public void setRpn(List<String> rpn) {
         this.rpn = rpn;
     }
 }
